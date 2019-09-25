@@ -2,4 +2,9 @@
     <div class="card-header" *ngIf='product'>
         {{ pageTitle + ': ' + product.productName}}
     </div>
+    <div>
+        <button class="btn-btn-outline-secondary" (click)='onBack()' style="widows: 80px;">
+            <i class="fa fa-cheveron-left"></i>Back
+        </button>
+    </div>
 </div>
